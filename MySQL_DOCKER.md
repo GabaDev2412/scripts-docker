@@ -1,6 +1,6 @@
 # Passo a passo para rodar MySQL em um container Docker
 
-* Primerio abra o terminale digite:
+* Primerio abra o terminal e digite:
 	* `docker pull mysql`
 	* no comando acima ele irá baixar da base de dados do docker a última versão do MySQL.
 
