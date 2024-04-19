@@ -8,5 +8,9 @@
 	* `docker run -d --name mysql-db -p 3306:3306 -e "MYSQL_ROOT_PASSWORD=root" mysql`
 	* nesse comando pedimos ao Docker para criar um conteiner nomeando ele para *mysql-db*, depois específico a porta de acesso ao container, depois defino uma senha de acesso ao database e por útlimo digo qual a imagem que o container irá rodar como base.
 
+ * E para rodar e parar o container digite no terminal:
+	* `docker start mysql-db` para iniciar o container
+ 	* `docker stop mysql-db` para iniciar o container
+
 
 
