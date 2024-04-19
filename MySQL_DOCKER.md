@@ -10,7 +10,7 @@
 
  * E para rodar e parar o container digite no terminal:
 	* `docker start mysql-db` para iniciar o container
- 	* `docker stop mysql-db` para iniciar o container
+ 	* `docker stop mysql-db` para parar o container
 
 
 
