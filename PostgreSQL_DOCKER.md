@@ -15,7 +15,7 @@ Este comando irá baixar a última versão do PostgreSQL da base de dados do Doc
 Execute o comando abaixo no terminal:
 
 ```sh
-docker run -d --name postgres-db -p 5432:5432 -e POSTGRES_PASSWORD=r postgres
+docker run -d --name postgres-db -p 5432:5432 -e POSTGRES_PASSWORD=root postgres
 ```
 
 Neste comando, estamos pedindo ao Docker para:
@@ -23,7 +23,7 @@ Neste comando, estamos pedindo ao Docker para:
 - -d: Executar o container em modo "detached" (em segundo plano, não trava o terminal).
 - --name: Nomear o container como postgres-db.
 - -p 5432:5432: Mapear a porta 5432 do container para a porta 5432 da máquina host.
-- -e POSTGRES_PASSWORD=senha: Definir a senha do usuário padrão postgres.
+- -e POSTGRES_PASSWORD=root Definir a senha do usuário padrão postgres.
 - postgres: Especificar a imagem do Docker a ser usada.
 
 # 3. Iniciar e Parar o container
